@@ -33,7 +33,7 @@ about:
   home: https://github.com/Microsoft/PTVS/tree/master/Python/Product/WFastCgi
   license: APACHE-2.0
   license_family: APACHE
-  summary: 'An IIS-Python bridge based on WSGI and FastCGI.'
+  summary: 'An IIS-Python bridge based on WSGI and FastCGI.' 
 
   description: |
     wfastcgi.py provides a bridge between IIS and Python using WSGI and FastCGI, similar to 
