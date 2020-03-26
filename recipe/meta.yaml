@@ -31,8 +31,9 @@ test:
 
 about:
   home: https://github.com/Microsoft/PTVS/tree/master/Python/Product/WFastCgi
-  license: APACHE-2.0
+  license: Apache-2.0
   license_family: APACHE
+  # license_file: text of license is included in the source code file
   summary: 'An IIS-Python bridge based on WSGI and FastCGI.'
 
   description: |
