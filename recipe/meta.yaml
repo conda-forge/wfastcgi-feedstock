@@ -10,7 +10,7 @@ source:
   sha256: cbce266e7da411d40f98f28a73cb9a55157b274398bd5a8d2b25cfa10a4dd493
 
 build:
-  number: 1
+  number: 2
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   skip: True  # [not win]
   entry_points:
@@ -31,8 +31,9 @@ test:
 
 about:
   home: https://github.com/Microsoft/PTVS/tree/master/Python/Product/WFastCgi
-  license: APACHE-2.0
+  license: Apache-2.0
   license_family: APACHE
+  # license_file: text of license is included in the source code file
   summary: 'An IIS-Python bridge based on WSGI and FastCGI.'
 
   description: |
